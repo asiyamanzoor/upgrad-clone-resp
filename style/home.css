@@ -1235,7 +1235,6 @@ color: white;
     }
     .alumni-logo-new {
         width: 100%;
-        /* height: 38px; */
         display: flex;
         flex-direction: column;
         margin-top: 20px;
@@ -1283,9 +1282,6 @@ color: white;
         text-align: center;
         height: 40px !important;
     }
-    /* #footer {
-        display: none;
-    } */
     #row1 {
         width: 100%;
        padding-left: 12px;
@@ -1296,7 +1292,6 @@ color: white;
     }
     .support-info {
         padding: 15px;
-        /* font-size: 10px; */
     }
     .support-info>p {
         font-size: 10px;
@@ -1346,7 +1341,6 @@ color: white;
     }
     .footer_section 
         {
-            /* width: 100%; */
             display: flex !important;
             flex-direction: column !important;
         }
@@ -1359,9 +1353,6 @@ color: white;
     .navbar-m,.slideshow-m, .flickity-page-dots, .previous, .next {
       display: none;
     }
-    /* #footer {
-        display: none;
-    } */
     .slideshow-mobile-screen, .slide-img-mob {
         width: 100%;
     }
@@ -1466,7 +1457,6 @@ color: white;
         font-weight: 500;
     }
     .media-logo {
-        /* margin-left: 0px !important; */
         margin-top: 0;
         width: 135px;
     }
@@ -1488,7 +1478,6 @@ color: white;
     }
     .support-info {
         padding: 15px;
-        /* font-size: 10px; */
     }
     .support-info>p {
         font-size: 10px;
@@ -1547,7 +1536,6 @@ color: white;
     }
     .footer_section 
         {
-            /* width: 100%; */
             display: flex !important;
             flex-direction: column !important;
         }
