@@ -711,7 +711,7 @@ button{
 .head{
     font-size: 42px;
     font-weight: bold;
-   padding-left: 50px;
+    padding-left: 2.9em;
 }
 .head:hover{
     color: #00bcd4;
