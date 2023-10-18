@@ -1,5 +1,5 @@
 // SlideShow Code
-var arr = [
+const img_arr = [
     {
        imgUrl:"https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fdeloitte__1644555599257.png&w=1920&q=75",
     },
@@ -18,10 +18,7 @@ var arr = [
   
   ]
   
-  // localStorage.setItem('slide_images', JSON.stringify(arr));
   function slide() {
-      // let img_arr= JSON.parse(localStorage.getItem('slide_images'))||[]
-      const img_arr = arr;
       let slides_div = document.querySelector(".slideshow-m")
   
       let images = document.createElement("img")
@@ -38,9 +35,6 @@ var arr = [
            images.src=img_arr[i].imgUrl;
            i++;
      },2000);
-  
-  
-  
   }
   
   slide()
